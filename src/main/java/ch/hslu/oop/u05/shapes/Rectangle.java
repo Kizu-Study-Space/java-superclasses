@@ -1,8 +1,8 @@
 package ch.hslu.oop.u05.shapes;
 
 public class Rectangle extends Shape {
-    int width;
-    int height;
+    private final int width;
+    private final int height;
 
     public Rectangle(final int x, final int y, final int width, final int height) {
         super(x, y);
