@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ShapeController {
 
-    private List<Shape> shapeList;
+    private final List<Shape> shapeList;
 
     public ShapeController() {
         this.shapeList = new ArrayList<>();
