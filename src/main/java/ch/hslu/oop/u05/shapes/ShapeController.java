@@ -24,4 +24,14 @@ public class ShapeController {
             shape.move(newX, newY);
         }
     }
+
+    public List<Integer> getDiametersOfCircles() {
+        List<Integer> diameters = new ArrayList<>();
+        for (Shape shape: shapeList) {
+            if(shape instanceof Circle) {
+                diameters.add(((Circle) shape).getDiameter());
+            }
+        }
+        return diameters;
+    }
 }
