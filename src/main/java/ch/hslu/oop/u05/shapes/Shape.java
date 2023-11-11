@@ -10,11 +10,11 @@ public abstract class Shape {
         this.y = y;
     }
 
-    protected int getX() {
+    protected final int getX() {
         return this.x;
     }
 
-    protected int getY() {
+    protected final int getY() {
         return this.y;
     }
 
